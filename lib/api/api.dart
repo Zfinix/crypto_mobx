@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class Api {
   static final String API_URL = 'https://api.nomics.com/v1';
 
-  static final String API_KEY = '993a1ac031c77d33b1442c61c539b481';
+  static final String API_KEY = 'YOUR_API_KEY';
 
   static final String GET_CURRENCIES = '$API_URL/currencies/ticker';
 
